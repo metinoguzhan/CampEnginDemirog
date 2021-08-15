@@ -6,7 +6,7 @@ namespace _02_ClassIntro
     {
         static void Main(string[] args)
         {
-			Course[] Courselar = new Course[]
+			Course[] courses = new Course[]
             {
                 new Course
                 {
@@ -28,11 +28,11 @@ namespace _02_ClassIntro
                 }
             };
             int count = 1;
-            foreach (Course Course in Courselar)
+            foreach (Course course in courses)
             {
                 Console.WriteLine("Course Informations --> {0}", count);
-                Console.WriteLine(Course.Instructor + " / " + Course.CourseName);
-                Console.WriteLine(Course.ViewsRate);
+                Console.WriteLine(course.Instructor + " / " + course.CourseName);
+                Console.WriteLine(course.ViewsRate);
                 count++;
             }
 		}

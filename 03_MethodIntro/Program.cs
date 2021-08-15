@@ -13,6 +13,7 @@ namespace _03_MethodIntro
             product.Price = 15.0;
             product.Description = "amasya apple is famous fruit in the world";
             product.StockQty = 99;
+
             Product product2 = new Product();
             product2.Name = "Watermelon";
             product2.Price = 15.0;
@@ -26,11 +27,11 @@ namespace _03_MethodIntro
             };
 
             //type-safe -> tip güvenli
-            foreach (Product product3 in products)
+            foreach (Product variable in products)
             {
-                Console.WriteLine(product3.Name);
-                Console.WriteLine(product3.Price);
-                Console.WriteLine(product3.Description);
+                Console.WriteLine(variable.Name);
+                Console.WriteLine(variable.Price);
+                Console.WriteLine(variable.Description);
                 Console.WriteLine("-----------------");
             }
             Console.WriteLine("<-------------Methods------------->");

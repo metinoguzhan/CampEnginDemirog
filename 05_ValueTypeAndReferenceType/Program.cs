@@ -6,11 +6,12 @@ namespace _05_ValueTypeAndReferenceType
     {
         static void Main(string[] args)
         {
-			int number2 = 30;
+            int number2 = 30;
             int number3 = number2;
             number2 = 65;
-            Console.WriteLine(number3.ToString() + " / " + number2.ToString());
+            Console.WriteLine(number3 + " / " + number2);
             Console.WriteLine("\n\n");
+
             int[] array = new int[]
             {
                 10,
@@ -29,12 +30,12 @@ namespace _05_ValueTypeAndReferenceType
             foreach (int i in numbers3)
             {
                 Console.WriteLine(i);
-            }
+            } 
             Console.WriteLine("\nNumbers Array 2 :");
             foreach (int j in numbers2)
             {
                 Console.WriteLine(j);
             }
-		}
+        }
     }
 }
