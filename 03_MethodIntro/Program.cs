@@ -6,6 +6,8 @@ namespace _03_MethodIntro
     {
         static void Main(string[] args)
         {
+            //Don't repeat yourself - DRY - Clean Code - Best Practice
+
 			Product product = new Product();
             product.Name = "Apple";
             product.Price = 15.0;
@@ -16,11 +18,14 @@ namespace _03_MethodIntro
             product2.Price = 15.0;
             product2.Description = "diyarbakır Watermelon is famous fruit in the world";
             product2.StockQty = 98;
+            
             Product[] products = new Product[]
             {
                 product,
                 product2
             };
+
+            //type-safe -> tip güvenli
             foreach (Product product3 in products)
             {
                 Console.WriteLine(product3.Name);

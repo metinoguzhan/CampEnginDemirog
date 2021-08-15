@@ -8,6 +8,8 @@ namespace _03_MethodIntro
 {
     class CartManager
     {
+        //naming convention
+        //syntax
         public void Add(Product product)
         {
             Console.WriteLine("Congratulations. Added to cart : " + product.Name);

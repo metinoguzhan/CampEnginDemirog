@@ -6,6 +6,7 @@ namespace _04_Mathematics
     {
         static void Main(string[] args)
         {
+            //instance -> Örnekleme
             FourOperations fourOperations = new FourOperations();
             fourOperations.Addition(12.0, 3.0);
             fourOperations.Subtraction(12.0, 3.0);
