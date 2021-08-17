@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_KampIntro", "01_KampIntro\01_KampIntro.csproj", "{08F40514-0317-480C-9151-99102DE65A02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_KampIntro", "01_KampIntro\01_KampIntro.csproj", "{08F40514-0317-480C-9151-99102DE65A02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ClassIntro", "02_ClassIntro\02_ClassIntro.csproj", "{5EF47137-0A6C-4DFD-B9BF-EE63A71749A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_ClassIntro", "02_ClassIntro\02_ClassIntro.csproj", "{5EF47137-0A6C-4DFD-B9BF-EE63A71749A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_MethodIntro", "03_MethodIntro\03_MethodIntro.csproj", "{ACAD6445-5AF1-4DF7-80D4-D596CA48541A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_MethodIntro", "03_MethodIntro\03_MethodIntro.csproj", "{ACAD6445-5AF1-4DF7-80D4-D596CA48541A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Mathematics", "04_Mathematics\04_Mathematics.csproj", "{149AC4DD-8ACB-4AAE-9F0F-74927E01F557}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Mathematics", "04_Mathematics\04_Mathematics.csproj", "{149AC4DD-8ACB-4AAE-9F0F-74927E01F557}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ValueTypeAndReferenceType", "05_ValueTypeAndReferenceType\05_ValueTypeAndReferenceType.csproj", "{D91C9E05-6259-4172-A978-0EC30CE8660A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_ValueTypeAndReferenceType", "05_ValueTypeAndReferenceType\05_ValueTypeAndReferenceType.csproj", "{D91C9E05-6259-4172-A978-0EC30CE8660A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_OOP1", "06_OOP1\06_OOP1.csproj", "{1BAEFE99-0577-4D2B-A2EF-B89C04081EA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Collections", "07_Collections\07_Collections.csproj", "{0B8C9993-7606-4CD9-BD2D-A22783E78F26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{D91C9E05-6259-4172-A978-0EC30CE8660A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D91C9E05-6259-4172-A978-0EC30CE8660A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D91C9E05-6259-4172-A978-0EC30CE8660A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BAEFE99-0577-4D2B-A2EF-B89C04081EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BAEFE99-0577-4D2B-A2EF-B89C04081EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BAEFE99-0577-4D2B-A2EF-B89C04081EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BAEFE99-0577-4D2B-A2EF-B89C04081EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B8C9993-7606-4CD9-BD2D-A22783E78F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B8C9993-7606-4CD9-BD2D-A22783E78F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B8C9993-7606-4CD9-BD2D-A22783E78F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B8C9993-7606-4CD9-BD2D-A22783E78F26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
