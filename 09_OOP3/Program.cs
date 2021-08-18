@@ -7,9 +7,10 @@ namespace _09_OOP3
     {
         static void Main(string[] args)
         {
-            //Example01();
-            //Example02();
+            Example01();
+            Example02();
             Example03();
+            Example04();
         }
         private static void Example01()
         {
@@ -26,7 +27,7 @@ namespace _09_OOP3
         private static void Example02()
         {
             ApplicationManager applicationManager = new ApplicationManager();
-            applicationManager.Apply(new VehicleLoanManager());
+            applicationManager.Apply(new VehicleLoanManager(),new DatabaseLoggerService());
         }
         private static void Example03()
         {
@@ -36,6 +37,12 @@ namespace _09_OOP3
                 new VehicleLoanManager(), new HouseLeonManager(), new ConsumerLoanManager()
             };
             applicationManager.PreliminaryInformation(credits);
+        }
+
+        private static void Example04()
+        {
+            ApplicationManager applicationManager = new ApplicationManager();
+            applicationManager.Apply2(new BusinessLeonManager(), new List<ILoggerService>(){new DatabaseLoggerService(),new FileLoggerService(),new SmsLoggerService()});
         }
     }
 }
