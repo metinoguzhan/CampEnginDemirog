@@ -7,8 +7,8 @@ namespace _07_Collections
     {
         static void Main(string[] args)
         {
-            //Example01();
-            //Example02();
+            Example01();
+            Example02();
             MyList<string> names = new MyList<string>();
             names.Add("Metin");
             names.Add("Oğuzhan");
