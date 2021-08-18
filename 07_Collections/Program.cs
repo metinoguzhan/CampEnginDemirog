@@ -10,6 +10,17 @@ namespace _07_Collections
             //Example01();
             //Example02();
             MyList<string> names = new MyList<string>();
+            names.Add("Metin");
+            names.Add("Oğuzhan");
+            names.Add("Emre");
+            names.Add("Yaşar");
+
+            foreach (var VARIABLE in names.Items)
+            {
+                Console.WriteLine(VARIABLE);
+            }
+
+            Console.WriteLine(names.Lenght);
         }
         private static void Example01()
         {
