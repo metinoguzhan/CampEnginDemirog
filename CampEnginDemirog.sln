@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Mathematics", "04_Mathem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_ValueTypeAndReferenceType", "05_ValueTypeAndReferenceType\05_ValueTypeAndReferenceType.csproj", "{D91C9E05-6259-4172-A978-0EC30CE8660A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_OOP1", "06_OOP1\06_OOP1.csproj", "{1BAEFE99-0577-4D2B-A2EF-B89C04081EA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_OOP1", "06_OOP1\06_OOP1.csproj", "{1BAEFE99-0577-4D2B-A2EF-B89C04081EA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Collections", "07_Collections\07_Collections.csproj", "{0B8C9993-7606-4CD9-BD2D-A22783E78F26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_Collections", "07_Collections\07_Collections.csproj", "{0B8C9993-7606-4CD9-BD2D-A22783E78F26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_OOP2", "08_OOP2\08_OOP2.csproj", "{631C594A-25E7-4466-AE51-9D7A4BE3DC7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_OOP3", "09_OOP3\09_OOP3.csproj", "{3B31993F-18C4-46EE-A781-D51004C7DFEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{0B8C9993-7606-4CD9-BD2D-A22783E78F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B8C9993-7606-4CD9-BD2D-A22783E78F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B8C9993-7606-4CD9-BD2D-A22783E78F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{631C594A-25E7-4466-AE51-9D7A4BE3DC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631C594A-25E7-4466-AE51-9D7A4BE3DC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631C594A-25E7-4466-AE51-9D7A4BE3DC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631C594A-25E7-4466-AE51-9D7A4BE3DC7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B31993F-18C4-46EE-A781-D51004C7DFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B31993F-18C4-46EE-A781-D51004C7DFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B31993F-18C4-46EE-A781-D51004C7DFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B31993F-18C4-46EE-A781-D51004C7DFEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
