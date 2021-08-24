@@ -23,7 +23,6 @@ namespace _09_OOP3
             ICreditBaseManager consumerLoanManager = new ConsumerLoanManager();
             consumerLoanManager.Hesapla();
         }
-
         private static void Example02()
         {
             ApplicationManager applicationManager = new ApplicationManager();
@@ -38,7 +37,6 @@ namespace _09_OOP3
             };
             applicationManager.PreliminaryInformation(credits);
         }
-
         private static void Example04()
         {
             ApplicationManager applicationManager = new ApplicationManager();
